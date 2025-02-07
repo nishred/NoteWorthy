@@ -1,0 +1,26 @@
+{
+  "applicationId": "js.neutralino.zero",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/react-src/build/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": ["app.*", "os.*", "storage.*", "window.*", "filesystem.*"],
+  "modes": {
+    "window": {
+      "title": "NoteWorthy",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200
+    }
+  },
+  "cli": {
+    "binaryName": "NoteWorthy",
+    "resourcesPath": "/react-src/",
+    "extensionsPath": "/extensions/",
+    "binaryVersion": "5.6.0",
+    "clientVersion": "5.6.0"
+  }
+}
